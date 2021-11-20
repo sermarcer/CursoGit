@@ -8,4 +8,7 @@ git status -s --> nos dice el estado de los ficheros en la carpeta del proyecto(
     - ?? --> indica q no está en seguimiento por git
     A --> se ha hecho el add y el fichero está en la staging area
     M(rojo modificado en area de trabajo, verde modificado y en staging area) --> el fichero está modificado con respecto al que hay en el local repo.
-git add file --> empieza el seguimiento del fichero que le indicamos 
+git add file --> empieza el seguimiento del fichero que le indicamos. LLeva el fichero al staging area
+git commit -m "descripcion" --> lleva el fichero al local repo. Ya no sale en git status -s
+git log --online --> Nos da el histórico de cambios(cada versión lleva un código)
+git reset --hard código de versión --> restaura el fichero a la versión indicada.
