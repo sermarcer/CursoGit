@@ -1,0 +1,11 @@
+git init --> al principio cuando se quiere crear el seguimiento del proyecto
+Tenemos 
+    - working directory
+    - staging area
+    - local repo
+    - remote repo
+git status -s --> nos dice el estado de los ficheros en la carpeta del proyecto. Admite los valores:
+    - ?? --> indica q no está en seguimiento por git
+    A --> se ha hecho el add y el fichero está en la staging area
+    
+git add file --> empieza el seguimiento del fichero que le indicamos 
