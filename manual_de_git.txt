@@ -12,3 +12,10 @@ git add file --> empieza el seguimiento del fichero que le indicamos. LLeva el f
 git commit -m "descripcion" --> lleva el fichero al local repo. Ya no sale en git status -s
 git log --online --> Nos da el histórico de cambios(cada versión lleva un código)
 git reset --hard código de versión --> restaura el fichero a la versión indicada.
+git add . --> agrega a la staging area todos los archivos
+
+Con el editor vim podemos modificar la descripcion del commit (no va con esta version de git --> buscar)
+
+Subir a Github
+git remote add origin https://github.com/sermarcer/CursoGit.git
+ git push --set-upstream origin master
