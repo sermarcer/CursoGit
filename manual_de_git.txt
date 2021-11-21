@@ -20,3 +20,5 @@ Subir a Github
 git remote add origin https://github.com/sermarcer/CursoGit.git
  git push --set-upstream origin master
 --Esto está siendo editado desde GiHub
+--Prueba de edicion desde Git Hago un pull y veo si machaca losw cambios --> no lo refresca
+--Ahora cambio desde GitHub y hago un pull --> No lo cambia.
