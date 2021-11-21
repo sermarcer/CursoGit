@@ -19,3 +19,4 @@ Con el editor vim podemos modificar la descripcion del commit (no va con esta ve
 Subir a Github
 git remote add origin https://github.com/sermarcer/CursoGit.git
  git push --set-upstream origin master
+--Esto está siendo editado desde GiHub
