@@ -20,3 +20,4 @@ Subir a Github
 git remote add origin https://github.com/sermarcer/CursoGit.git
  git push --set-upstream origin master
 --Esto está siendo editado desde GiHub
+--Voy a ver si esto machaca mi edicions desde Git
